@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px 50px 200px;
+}
+
+.bn-primary {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FD6E0A;
+    border: 0px;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+/* banner style */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0px 200px;
+}
+
+.subtitle {
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.maintitle {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.paragrtaphtitle {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+/* about section */
+main {
+    max-width: 1020px;
+    margin: 0 auto;
+
+}
+
+
+.about {
+    margin-top: 50px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 120px 60px;
+    height: 200px;
+}
+
+.about-title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.about-paragrph {
+    text-align: center;
+    color: #757575;
+
+}
+
+/* ABOUT info style */
+.info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-class {
+    margin-top: 30px;
+
+}
+
+.info-title {
+    color: #757575;
+}
+
+.info-detail {
+    color: #131111;
+    font-weight: 600;
+}
+
+/* dealis style */
+
+.detals-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.detals-paragraph {
+    text-align: center;
+    margin-top: 20px;
+    max-width: 1020px;
+    margin-bottom: 20px;
+
+}
+
+.deatils-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.deatils-paragraph-image {}
+
+.deatils-container {
+    display: flex;
+    gap: 20;
+}
+
+.deatils-container .info-detail {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    height: 200px;
+}
+
+/* resume section */
+.resume-class-title {
+    text-align: center;
+    margin-top: 20px;
+
+}
+.resume-title1 ,.resume-subtuitle ,.resume-paragraph{
+    margin-top: 10px;
+}
+.resume-content {
+    display: flex;
+    gap: 20px;
+ 
+}
+
+.reume-deatils {
+    margin-top: 20px;
+    padding: 20px;
+    border-bottom:1px solid #757575   ;
+}
+.bn-primary1 {
+    font-weight: 200;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FD6E0A;
+    border: 0px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 200px;
+    margin: 20px auto;
+}
+.resume-button{
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    background:red;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 100px;
+    margin: 10px auto;
+    padding: 10px;
+}
